@@ -1,0 +1,25 @@
+<div class="card">
+
+    <section class="card-title">
+  
+      <h1>Informações dos Itens</h1>
+  
+    </section>
+  
+    <section class="details">
+  
+      <div class="item" *ngFor="let item of itens">
+  
+        <a class="i" [routerLink]="['/item', item]">
+  
+          <div>{{item.title}}</div>
+          <div>{{item.body}}</div>
+    
+        </a>
+  
+      </div>
+  
+    </section>
+  
+  </div>
+  

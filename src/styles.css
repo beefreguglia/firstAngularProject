@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap');
+:root{
+
+    --primary-color: #7159c1;
+
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+
+html{
+
+    background-color: var(--primary-color);
+    font-family: 'Maven Pro', sans-serif;
+
+}
